@@ -1,0 +1,69 @@
+{
+  "slug": "startup-idea-vault",
+  "title": "Startup Idea Vault",
+  "tagline": "Park ideas before they evaporate",
+  "description": "Park ideas before they evaporate.",
+  "category": "Work",
+  "accent": "#4f46e5",
+  "accent_soft": "#eef2ff",
+  "table": {
+    "name": "ideas",
+    "singular": "idea",
+    "plural": "ideas",
+    "fields": [
+      {
+        "name": "idea",
+        "label": "The idea",
+        "type": "text",
+        "required": true,
+        "placeholder": ""
+      },
+      {
+        "name": "problem",
+        "label": "Problem it solves",
+        "type": "text",
+        "required": true,
+        "placeholder": ""
+      },
+      {
+        "name": "audience",
+        "label": "Who it is for",
+        "type": "text",
+        "required": true,
+        "placeholder": ""
+      },
+      {
+        "name": "effort",
+        "label": "Effort 1-5",
+        "type": "int",
+        "required": true,
+        "placeholder": ""
+      },
+      {
+        "name": "noted_on",
+        "label": "Noted on",
+        "type": "date",
+        "required": true,
+        "placeholder": ""
+      }
+    ]
+  },
+  "features": [
+    {
+      "icon": "💡",
+      "title": "Idea plus problem",
+      "body": "An idea without a problem is a hobby."
+    },
+    {
+      "icon": "🎯",
+      "title": "Audience field",
+      "body": "Who exactly, not 'everyone'."
+    },
+    {
+      "icon": "⚡",
+      "title": "Effort score",
+      "body": "Quick triage for weekend builds."
+    }
+  ],
+  "seed": []
+}
